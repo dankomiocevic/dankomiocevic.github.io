@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Danko Miocevic">
+    <meta name="description" content="http://www.miocevic.com">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta property="og:site_name" content="Danko Miocevic">
+    <meta property="og:title" content="
+  MuLiFS - Music Library File System - Danko Miocevic
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.miocevic.com/es/projects/muli/">
+    <meta property="og:image" content="http://www.miocevic.com">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="http://www.miocevic.com/es/projects/muli/">
+    <meta name="twitter:image" content="http://www.miocevic.com">
+
+    <base href="http://www.miocevic.com/es/projects/muli/">
+    <title>
+  MuLiFS - Music Library File System - Danko Miocevic
+</title>
+
+    <link rel="canonical" href="http://www.miocevic.com/es/projects/muli/">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="http://www.miocevic.com/css/normalize.min.css">
+    <link rel="stylesheet" href="http://www.miocevic.com/css/style.min.css">
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://www.miocevic.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://www.miocevic.com/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="http://www.miocevic.com/es/index.xml" type="application/rss+xml" title="Danko Miocevic">
+      <link href="http://www.miocevic.com/es/index.xml" rel="feed" type="application/rss+xml" title="Danko Miocevic" />
+    
+
+    <meta name="generator" content="Hugo 0.73.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/es/">Danko Miocevic</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://www.miocevic.com/es/about">Quien soy?</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="http://www.miocevic.com/es/projects">Proyectos</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            <li class= " mobile-menu-lang-separator-centered ">
+              <hr />
+            </li>
+          
+          
+            
+              
+                
+                  <li class="multilingual-separator">
+                    <p>|</p>
+                  </li>
+                
+                
+              
+              <li class="navigation-item  align-center ">
+                <a href="http://www.miocevic.com/">English</a>
+              </li>
+            
+          
+            
+          
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>MuLiFS - Music Library File System</h1>
+    </header>
+
+    <p><img src="/images/mulifs/brand.png" alt="MuLiFS"></p>
+<p>Cuenta la leyenda que en un pasado lejano la gente convertía la música de sus CDs en MP3 y la guardaba en sus computadoras&hellip; usaban un formato llamado MP3 y tiraban todos esos archivos en un directorio común donde era imposible encontrarlos de nuevo&hellip;</p>
+<p>Bueno, por ahí ustedes eran más organizados que yo, pero básicamente yo tenía mis archivos de música en mi computadora también!</p>
+<p>En esa época, mucha gente estaba hablando de <a href="https://go.dev/">GoLang</a> (lo escribo así porque sino es imposible buscarlo en Google.. xD) y quise aprender qué era todo este barullo.</p>
+<p>Después de pegarle una mirada rápida, encontré que <a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a> estaba detrás de todo esto, ahora sí que quise aprender un poco más!</p>
+<p>Entonces, para trabajar en un proyecto real decidí empezar a crear un systema de archivos tipo <a href="https://en.wikipedia.org/wiki/Filesystem_in_Userspace">FuSe</a> que organizara mi música y todo escrito en Go. La idea es utilizar los Tags que tienen los MP3 para organizar los archivos.</p>
+<p>Los archivos MP3 usan tags <a href="https://en.wikipedia.org/wiki/ID3">ID3</a> para definir la metadata de las canciones. Tienen información de Artista, Album y el nombre de la canción. Esto se puede usar para crear la jerarquía del sistem.</p>
+<p>Así es que MuLiFS nació. Ahora quizás no es tan útil como una vez lo fué, pero si quieren pasar a mirar como funciona, son bienvenidos a visitar el Repo:</p>
+<p><a href="http://dankomiocevic.github.io/mulifs/">http://dankomiocevic.github.io/mulifs/</a></p>
+
+  </article>
+</section>
+
+
+      </div>
+      
+        <footer class="footer">
+  <section class="container">
+    
+      <div class="sns-shares sp-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=http%3a%2f%2fwww.miocevic.com%2fes%2fprojects%2fmuli%2f&ref_src=twsrc%5Etfw&text=MuLiFS%20-%20Music%20Library%20File%20System Danko%20Miocevic&tw_p=tweetbutton&url=http%3a%2f%2fwww.miocevic.com%2fes%2fprojects%2fmuli%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=http%3a%2f%2fwww.miocevic.com%2fes%2fprojects%2fmuli%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+    
+      <p>Copyright © 2020 Danko Miocevic. All rights reserved.</p>
+    
+     © 2020    ·  Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/naro143/hugo-coder-portfolio">CoderPortfolio</a>. 
+
+  </section>
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+    
+      <div class="sns-shares pc-sns-shares">
+        
+          <a class="sns-share twitter-share" href="https://twitter.com/intent/tweet?original_referer=http%3a%2f%2fwww.miocevic.com%2fes%2fprojects%2fmuli%2f&ref_src=twsrc%5Etfw&text=MuLiFS%20-%20Music%20Library%20File%20System Danko%20Miocevic&tw_p=tweetbutton&url=http%3a%2f%2fwww.miocevic.com%2fes%2fprojects%2fmuli%2f"><i class="fab fa-twitter"></i></a>
+        
+        
+        
+        
+        
+          <a class="sns-share linkedIn-share" href="https://www.linkedin.com/sharing/share-offsite/?url=http%3a%2f%2fwww.miocevic.com%2fes%2fprojects%2fmuli%2f"><i class="fab fa-linkedin"></i></a>
+        
+      </div>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="http://www.miocevic.com/js/app.js"></script>
+  
+  </body>
+</html>

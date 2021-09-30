@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Danko Miocevic</title>
+    <link>http://www.miocevic.com/</link>
+    <description>Recent content on Danko Miocevic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jul 2020 14:59:14 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.miocevic.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Buenos Aires War Game</title>
+      <link>http://www.miocevic.com/projects/war_game/</link>
+      <pubDate>Sat, 11 Jul 2020 14:59:14 -0700</pubDate>
+      
+      <guid>http://www.miocevic.com/projects/war_game/</guid>
+      <description>I always wanted to create a board game like Risk but instead of using the whole world, only in the City of Buenos Aires.
+I started by creating a diagram of the game, originally a paper with the city organizing all the different neightbourhoods to make enough room for the tokens.
+With the help of a graphic designer, I was able to create a classic Buenos Aires theme to show a little of the city and the culture.</description>
+    </item>
+    
+    <item>
+      <title>MuLiFS - Music Library File System</title>
+      <link>http://www.miocevic.com/projects/muli/</link>
+      <pubDate>Sun, 11 Sep 2016 14:59:14 -0700</pubDate>
+      
+      <guid>http://www.miocevic.com/projects/muli/</guid>
+      <description>Legend says that in a distant past, people used to rip their music CDs and store their songs in their computers&amp;hellip; they were using MP3s and throwing all those files into common folders where it was impossible to find them again&amp;hellip;
+Well, maybe you were a little more organized than me, but basically I had my own music library in my computer too!
+At that time, there was this big hype about GoLang (I am going to write it like that because otherwise is impossible to find in Google.</description>
+    </item>
+    
+    <item>
+      <title>Abrevio - The easiest way to share a link</title>
+      <link>http://www.miocevic.com/projects/abrevio/</link>
+      <pubDate>Sun, 19 Jul 2015 14:59:14 -0700</pubDate>
+      
+      <guid>http://www.miocevic.com/projects/abrevio/</guid>
+      <description>Back in 2015, we were working on some IoT related web apps and we needed to test the changes on multiple phones. Those phones included different Android (Samsung, Motorola, etc) and iPhones.
+Every time we did a new change, and we wanted to try it fast on the devices, it was a nightmare. Copying the URLs and writing them down on every phone.
+We tried using URL shorteners, that was making it a little faster to type, but for sure the screen keyboards and the text predictions were not helping at all!</description>
+    </item>
+    
+    <item>
+      <title>About Danko</title>
+      <link>http://www.miocevic.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.miocevic.com/about/</guid>
+      <description>Turning ideas into products | Software Engineer | Firmware, Hardware and IoT Engineer
+This web is work in progress&amp;hellip; Thanks for reading!</description>
+    </item>
+    
+  </channel>
+</rss>

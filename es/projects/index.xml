@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Danko Miocevic</title>
+    <link>http://www.miocevic.com/es/projects/</link>
+    <description>Recent content in Projects on Danko Miocevic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 11 Jul 2020 14:59:14 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.miocevic.com/es/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Juego de la guerra Buenos Aires</title>
+      <link>http://www.miocevic.com/es/projects/war_game/</link>
+      <pubDate>Sat, 11 Jul 2020 14:59:14 -0700</pubDate>
+      
+      <guid>http://www.miocevic.com/es/projects/war_game/</guid>
+      <description>Hace mucho que quería hacer un juego de mesa de guerra pero en lugar de que sea en todo el mundo, que sea en la ciudad de Buenos Aires.
+Por eso empecé a diagramar este juego, originalmente empezó como un papel con la ciudad de Buenos Aires y organizando los espacios para que puedan entrar bien las fichas.
+Con ayuda de una diseñadora pudimos crear una gráfica bien porteña que refleja un poco de la rica cultura de Buenos Aires.</description>
+    </item>
+    
+    <item>
+      <title>MuLiFS - Music Library File System</title>
+      <link>http://www.miocevic.com/es/projects/muli/</link>
+      <pubDate>Sun, 11 Sep 2016 14:59:14 -0700</pubDate>
+      
+      <guid>http://www.miocevic.com/es/projects/muli/</guid>
+      <description>Cuenta la leyenda que en un pasado lejano la gente convertía la música de sus CDs en MP3 y la guardaba en sus computadoras&amp;hellip; usaban un formato llamado MP3 y tiraban todos esos archivos en un directorio común donde era imposible encontrarlos de nuevo&amp;hellip;
+Bueno, por ahí ustedes eran más organizados que yo, pero básicamente yo tenía mis archivos de música en mi computadora también!
+En esa época, mucha gente estaba hablando de GoLang (lo escribo así porque sino es imposible buscarlo en Google.</description>
+    </item>
+    
+    <item>
+      <title>Abrevio - La forma más facil de compartir un link</title>
+      <link>http://www.miocevic.com/es/projects/abrevio/</link>
+      <pubDate>Sun, 19 Jul 2015 14:59:14 -0700</pubDate>
+      
+      <guid>http://www.miocevic.com/es/projects/abrevio/</guid>
+      <description>En 2015, estabamos trabajando en una aplicación web relacionada con IoT y necesitabamos probar los cambios en muchos dispositivos a la vez. Esos telefonos incluían distintas versiones de Android (Samsung, Motorola, etc.) y también iPhones.
+Cada vez que teníamos un nuevo cambio, y necesitabamos probarlo rápidamente en todos los teléfonos, era una pesadilla. Teníamos que escribir las URLs en todos los teléfonos una y otra vez.
+Probamos usando servicios de reducción de URLs, era un poco más rápido, pero los teclados en pantalla y el texto predictivo no nos ayudaban en nada para escribir estas direcciones.</description>
+    </item>
+    
+  </channel>
+</rss>
